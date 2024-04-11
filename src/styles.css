@@ -11,4 +11,6 @@
 body{
   overflow-x: hidden;
   padding-top: 90px;
+  background-color: #1D202F;
+  height: 200vh;
 }
