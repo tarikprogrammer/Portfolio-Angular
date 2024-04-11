@@ -1,0 +1,20 @@
+<div class="container">
+  <a href="#" class="logo">Tarik</a>
+  <ul class="nav-x">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Projects</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+ <div class="cv-hamberger">
+   <a href="#" class="download-cv">Download cv <i class="fa-solid fa-file-lines"></i></a>
+   <a href="#" class="nav" (click)="onClick()"><i  [style.display]="isClick? 'none':'block'" class="fa-solid fa-bars"></i><i  [style.display]="isClick? 'block':'none'" class="fa-solid fa-xmark"></i></a>
+ </div>
+   <ul class="navbare" *ngIf="isClick">
+     <li><a href="#">Home</a></li>
+     <li><a href="#">About</a></li>
+     <li><a href="#">Projects</a></li>
+     <li><a href="#">Contact</a></li>
+   </ul>
+</div>
+
