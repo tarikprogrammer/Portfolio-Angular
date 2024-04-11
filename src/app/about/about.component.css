@@ -1,0 +1,277 @@
+.container{
+  margin-top: 90px;
+
+}
+.container p{
+  text-align: center;
+  font-size: 17px;
+}
+.container  a{
+  background-color: #003C43;
+  padding: 10px;
+  border-radius: 12px;
+  color: #ffffff;
+  box-shadow: 0px 0px 12px #000000;
+}
+
+.container .about-title{
+  text-align: center;
+  color: #ffffff;
+  margin-top: 100px;
+}
+.about {
+  width: 80%;
+  margin: 30px auto;
+  box-shadow: 0px 0px 12px #000000;
+  padding: 20px;
+  border-radius: 12px;
+}
+.about p{
+  color: white;
+  line-height: 50px;
+}
+.skills{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  width: 95%;
+  margin: 100px auto;
+}
+.skills div {
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 12px #000000;
+}
+.skills h1{
+  color: #0D9276;
+  text-align: center;
+  font-size: 25px;
+}
+
+.skills p{
+  text-align: start;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #ffffff;
+  position: relative;
+}
+p span{
+  font-size: 15px;
+  color: #FBA834;
+  position: absolute;
+  right: 0;
+  font-weight: 800;
+}
+.bar{
+  display: block;
+  width: 100%;
+  height: 7px;
+  border-radius: 10px;
+  background-color: transparent;
+  box-shadow: 0px 0px 20px #000000;
+  position: relative;
+  overflow: hidden;
+}
+
+.bar .html{
+  position: absolute;
+  height: 100%;
+  width: 98%;
+  background-color:#135D66;
+  animation: html 10s ease-in-out infinite ;
+}
+.bar .css{
+  position: absolute;
+  height: 100%;
+  width: 90%;
+  background-color:#135D66;
+  animation: css 10s ease-in-out infinite ;
+}
+.bar .js{
+  position: absolute;
+  height: 100%;
+  width: 60%;
+  background-color:#135D66;
+  animation: js 10s ease-in-out infinite ;
+}
+.bar .boostrap{
+  position: absolute;
+  height: 100%;
+  width: 94%;
+  background-color:#135D66;
+  animation: boostrap 10s ease-in-out infinite ;
+}
+.bar .angular{
+  position: absolute;
+  height: 100%;
+  width: 70%;
+  background-color:#135D66;
+  animation: angular 10s ease-in-out infinite ;
+}
+.bar .java{
+  position: absolute;
+  height: 100%;
+  width: 80%;
+  background-color:#135D66;
+  animation: java 10s ease-in-out infinite ;
+}
+.bar .j2e{
+  position: absolute;
+  height: 100%;
+  width: 88%;
+  background-color:#135D66;
+  animation: j2e 10s ease-in-out infinite ;
+}
+.bar .spring{
+  position: absolute;
+  height: 100%;
+  width: 82%;
+  background-color:#135D66;
+  animation: spring 10s ease-in-out infinite ;
+}
+.bar .springboot{
+  position: absolute;
+  height: 100%;
+  width: 83%;
+  background-color:#135D66;
+  animation: springboot 10s ease-in-out infinite ;
+}
+.bar .sql{
+  position: absolute;
+  height: 100%;
+  width: 90%;
+  background-color:#135D66;
+  animation: sql 10s ease-in-out infinite ;
+}
+.bar .PostgreSQL{
+  position: absolute;
+  height: 100%;
+  width: 91%;
+  background-color:#135D66;
+  animation: ps 10s ease-in-out infinite ;
+}
+.bar .oracle{
+  position: absolute;
+  height: 100%;
+  width: 60%;
+  background-color:#135D66;
+  animation: oracle 10s ease-in-out infinite ;
+}
+
+@keyframes html {
+  0%{
+  width: 0;
+  }
+  100%{
+    width:98%;
+  }
+
+}
+@keyframes css {
+  0%{
+    width: 0;
+  }
+  100%{
+    width:90%;
+  }
+
+}
+@keyframes js {
+  0%{
+    width: 0;
+  }
+  100%{
+    width:60%;
+  }
+
+}
+@keyframes boostrap {
+  0%{
+    width: 0;
+  }
+  100%{
+    width:94%;
+  }
+
+}
+@keyframes angular {
+  0%{
+    width: 0;
+  }
+  100%{
+    width:70%;
+  }
+
+}
+@keyframes java {
+  0%{
+    width: 0;
+  }
+  100%{
+    width:80%;
+  }
+
+}
+@keyframes j2e {
+  0%{
+    width: 0;
+  }
+  100%{
+    width:88%;
+  }
+
+}
+@keyframes spring {
+  0%{
+    width: 0;
+  }
+  100%{
+    width:82%;
+  }
+
+}
+@keyframes springboot {
+  0%{
+    width: 0;
+  }
+  100%{
+    width:83%;
+  }
+
+}
+@keyframes sql {
+  0%{
+    width: 0;
+  }
+  100%{
+    width:90%;
+  }
+
+}
+
+@keyframes ps {
+  0%{
+    width: 0;
+  }
+  100%{
+    width:91%;
+  }
+
+}
+@keyframes oracle {
+  0%{
+    width: 0;
+  }
+  100%{
+    width:60%;
+  }
+
+}
+@media screen and (max-width:881px){
+  .skills{
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    grid-gap: 50px;
+  }
+}
