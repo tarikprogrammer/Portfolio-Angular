@@ -161,7 +161,7 @@ p span{
   animation: oracle 10s ease-in-out infinite ;
 }
 
-@keyframes html {
+/*@keyframes html {
   0%{
   width: 0;
   }
@@ -269,7 +269,7 @@ p span{
     width:60%;
   }
 
-}
+}*/
 @media screen and (max-width:881px){
   .skills{
     display: grid;
